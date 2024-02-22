@@ -1,0 +1,28 @@
+Bemenet:
+	N: természetes szám
+	Átl: valós
+Kimenet:
+	oÁtl: valós
+
+Előfeltétel:
+	N:>0
+	1<=Átl<=5
+
+Utófeltétel:
+	1<=Átl<=5
+
+
+
+OsztályÁtlag()
+	Be: N, Átl
+	i:=1
+	Ciklus amíg i<=N
+		Átl:Átl+Átl[i]
+		{Átl:(Átl+Átl[i]/i)}
+		i:=i+1
+	Ciklus vége
+		Ki:Átl/N
+		{Ki:Átl}
+OsztályÁtlag vége
+
+
