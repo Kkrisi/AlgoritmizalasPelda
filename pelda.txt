@@ -54,6 +54,7 @@ Utófeltétel:
 Betűsorozat()
 	Be: M, B
 	i:=0
+	Szöv:= ""
 	Ciklus 1-től M-ig
 		Szöv:=Szöv+B
 	Ciklus vége
