@@ -1,3 +1,6 @@
+
+1.Feladat
+
 Bemenet:
 	N: természetes szám
 	Átl: valós
@@ -24,5 +27,47 @@ OsztályÁtlag()
 		Ki:Átl/N
 		{Ki:Átl}
 OsztályÁtlag vége
+
+
+
+
+
+
+2.Feladat
+
+Bemenet:
+	M: természetes szám
+	B: karakter típus
+Kimenet:
+	Szöv: szöveg típus
+
+ELőfeltétel:
+	M:>0
+	B(hossz)=1
+
+Utófeltétel:
+	Szöv(hossz)=M
+
+
+
+
+Betűsorozat()
+	Be: M, B
+	i:=0
+	Ciklus 1-től M-ig
+		Szöv:=Szöv+B
+	Ciklus vége
+		Ki: Szöv
+Betűsorozat vége
+
+
+
+
+
+
+
+
+
+
 
 
