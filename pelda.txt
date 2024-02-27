@@ -72,3 +72,37 @@ Betűsorozat vége
 
 
 
+
+1. Madaras Feladat
+
+Bemenet:
+	K: természetes szám
+	m[ ]lista (madár típusok)
+Kimenet:
+	M = összes madárfaj
+
+Előfeltétel:
+	K = m(darab)
+
+Utófeltétel:
+	M=m(i1+i2+...)
+	
+
+
+MadárSzámlálás()
+	Be: K, m
+	i:=0
+	Ciklus i-től hossz(m)-ig
+		M = M + i
+	Ciklus vége
+		Ki: M
+MadárSzámlálás vége
+
+
+
+
+
+
+
+
+
