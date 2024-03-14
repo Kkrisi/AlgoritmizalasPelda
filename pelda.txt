@@ -1,4 +1,56 @@
 
+
+
+
+--- 2024:03:14 ---
+
+Juniusban minden nap délben megmértük, hogy a Balaton Siofoknák hány fokos. Döntsuk el a mérésel alapján h a viz hofoka folyamatosan emeledett-e -> a hőmérsékletek sorozata monoton növekedő-e?
+
+Bemenet:
+	N:
+	Fok[]:valós
+Kimenet:
+	Monoton:logikai
+Előfeltétel:
+	N>0
+	i>=1
+	Fok[]>0
+Utófeltétel:
+	Monoton:igaz v. hamis
+
+Hőmérséklet(N,Fok)
+	Be:N
+	Fok[]
+	i:=2
+	Monoton:hamis
+	Ciklus amíg i<=N és Fok[i-1]<fok[i]
+		Monoton:igaz
+		i:=i+i
+	Ciklus vége
+	Ha i<=N akkor Monoton:hamis
+	Elágazás vége
+	Ki:Monoton
+Eljárás vége
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 1.Feladat
 
 Bemenet:
