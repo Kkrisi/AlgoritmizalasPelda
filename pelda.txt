@@ -1,4 +1,101 @@
 
+-2024:03:21
+Bemenet:
+	Legj.bar neve:szöveg
+	Névnapok[]:szöveg
+
+Kimenet:
+	Napszám:Természetes
+
+Előfeltétel:
+	Névnapok[]:valódi neveket tartalmaz a anptári sorrend
+	Név: valódi legyen
+
+Utófeltétel:
+	1<=Napszám<=365
+
+Névnap(Név,Névnap,Napszám)
+	Be:Névnapok[], Név
+	1:=1
+	Napszám:=0
+	Ciklus amíg i<=365 és a Névnapok[i]<>Név
+		i:=1+1
+	Ciklus vége
+	Ha i>365 akkor
+		Ki:"Nincs lyen névnap"
+	különben
+		ki:Napszám=i
+	Elágazás vége
+Névnap vége
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-2024:03:21
+
+Bemenet:
+	Hónap:szöveg
+	Hónapok[]:szöveg
+
+Kimenet:
+	Sorszám:Természetes
+
+Előf:
+	Hónap:valódi
+	Hónpok[(hossz)]=12
+	Hónapok[i]=Hónap
+	Hónapok[]sorozata valódi
+
+Utóf:
+	1<=Sorszám<=12
+
+Hónap-szám(Hónapok, Hónap, Sorszám)
+	Be: Hónapo[]; Hónap
+	i:=1
+	Ciklus amíg 1<=12 és Hónapok
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
