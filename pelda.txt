@@ -1,4 +1,114 @@
 
+
+
+
+DOGAAAAA -KÓMA:
+
+1.
+
+Bemenet:
+    be: bekeres: Természetes szám
+
+Kimenet
+    bekeres
+
+Előlfeltétel
+    bekeres>0
+
+Utófeltétel
+    bekeres>0
+
+Algoritmus
+
+    bekeres = bekert()
+    ciklus amig bekeres < 0 
+        akkor ki"HIBA: nem lehet negativ"
+        bekeres = beker()
+    ciklus vege
+
+
+
+
+2.
+Bemenet:
+  be: bekertTermészetesSzám:  Természetes szám
+  licitAlsoErtek: Természetes szám
+
+kimenet:
+    bekertTermészetesSzám
+
+előfeltétel:
+    bekertTermészetesSzám >  licitAlsoErtek
+
+Utófeltétel:
+    bekertTermészetesSzám != licitAlsoErtek
+
+Algoritmus
+
+be: bekertTermészetesSzám
+ha bekertTermészetesSzám > licitAlsoErtek
+    akkor ki "HIBA"
+kulonben
+    bekertTermészetesSzám
+ha vege
+
+
+
+
+
+3.
+Bemenet:
+
+  be: homerseklet: egesz szam
+  celsiusLegkisebb: -89
+  celsiusLegnagyobb: 58
+  Fahrenheit: (izolalt) egesz szam
+
+Kimenet:
+    Fahrenheit 
+
+Előlfeltétel:
+     homerseklet < celsiusLegnagyobb es homerseklet > celsiusLegkisebb
+
+Utófeltétel:
+    homerseklet != Fahrenheit 
+
+Algoritmus:
+ be:homerseklet
+ ha homerseklet < celsiusLegnagyobb es homerseklet > celsiusLegkisebb
+    akkor Fahrenheit = (celsius * 9/5)  +  32
+    ki(Fahrenheit)
+ kulonben
+    ki"Nem valos adat, eddigi rekord minium, maximuman kivul esik az ertek"
+ ha vege
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 -2024:03:21
 Bemenet:
 	Legj.bar neve:szöveg
