@@ -1,3 +1,53 @@
+---2024:05:23---
+Kávéautomata feladat pseudo kóddal
+
+Specifikáció:
+Bemenet:
+	Pénz:szám
+	TerKód:szöveg
+Előfeltétel:
+	Pénz:egységár
+	TerKód:001
+Kimenet:
+	Kávé:logikai
+Utófeltétel:
+	Kávé:igaz
+
+
+Kávézás(Pénz,TerKód,Kávé)
+	Be:Pénz,TerKód
+	Ár(const)
+	összeg:= 0
+	Ciklus amig Pénz < Ár
+		összeg:= összeg + Pénz
+	Ciklus vége
+	Ha összeg >= Ár akkor
+		vissza:= összeg - Ár
+		Ciklus i = 1 .. TerLista[].hossz
+			Ha Terlista[i] = TerKüd akkor
+				Kávé:= igaz
+			Elág vége
+	Különben
+		Ki: "Kevés a pénz!"
+	Elág vége
+	Ki: vissza
+Kávézás vége
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
